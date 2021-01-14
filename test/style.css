@@ -1,0 +1,43 @@
+h2{
+    color: #900;
+    font-size: 200%;
+    font-family: 华文行楷;
+}
+ol{
+    color: cornflowerblue;
+    line-height: 1.8;
+}
+.special{
+    color: rgb(103, 99, 99);
+}
+/* #poet{
+    border: 1px solid #000; 边线
+    padding: 10px; 内边距 按上右下左顺序定义，如果相同，则值定义一个
+    margin-bottom: 10px; 外边距
+}
+#select{
+    border: 1px solid rgb(122, 102, 199);
+    padding: 10px;
+    margin-bottom: 10px; 
+} */
+li a{
+    color: darkgoldenrod;
+    text-decoration: underline;
+}
+body{
+    font-size: 12px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    line-height: 1.5rem;
+}
+a{
+    text-decoration: underline;
+    font-weight: bold;
+}
+#poet,#select{
+    border: 5px solid rgb(209, 39, 187);
+    padding: 20px;
+    margin: 20px;
+}
+.container{
+    width: 960px;margin: 0 auto;
+}
