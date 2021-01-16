@@ -1,0 +1,18 @@
+body{
+    background:url(photo/black.jpg);
+    
+}
+img{
+    width: 200px;
+    height: 200px;
+}
+.taiji{
+    position: absolute;
+    right: 0;
+    top: 0;
+}
+.blue{
+    position: absolute;
+    bottom: 50px;
+    right: -17px;
+}
