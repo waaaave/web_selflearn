@@ -1,0 +1,250 @@
+.container{
+    width:940px;
+    margin:0 auto}
+/* 头部菜单栏的制作 */
+.logo{
+    float: left;
+    margin-right: 20px;
+}
+.headlist{
+    width: 586px;
+    float: left;
+    font-size: 18px;
+    font-weight: bold;
+    margin-top: 20px;
+}
+.headlist li{
+    float: left;
+    margin-right: 10px;
+    height: 42px;
+}
+.headlist a{
+    color: #393939;
+    display: block;
+    padding: 8px;
+}
+.container{
+    width: 940px;
+    margin: 0 auto;
+}
+body{
+    background: url(images/body-bg.png) ;
+}
+*{
+    padding: 0;
+    margin: 0;
+}
+h1,h2,h3,p{
+    margin-bottom: 10px;
+}
+li{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+}
+img{
+    border: none;
+}
+h2{
+    font-size: 1.5em;
+}
+#header{
+    height: 110px;
+    padding-top: 15;
+    position: relative;
+}
+.ribbon-free{
+    position: absolute;
+    top: 0;
+    right: 30px;
+}
+.headlist .active a{
+    background: url(images/top-menu-left.png) no-repeat left top;
+    page-break-after: 8px 30px;
+    color: #ffffff;
+}
+.headlist .active{
+    background: url(images/top-menu-right.png)no-repeat right top;
+}
+/* 中间展示部分设计 */
+#showplace{
+    clear: both;
+    height: 408px;
+    margin-bottom: 20px;
+    position: relative;
+    background: url(images/showcase-middle.png) repeat-x;
+    color:#fff;
+}
+.iphone{
+    position: absolute;
+    right: 75px;
+    top: -40px;
+}
+.showplace-content{
+    width: 404px;
+    padding: 70px 0 0 70px;
+}
+.show-left{
+    background: url(images/showcase-left.png) no-repeat left top;
+    height: 100%;
+
+}
+.show-right{
+    background: url(images/showcase-right.png)no-repeat right top;
+    height: 100%;
+}
+/* 边栏 */
+#side{
+    width: 299px;
+    float: left;
+    margin-left: 20px;
+    margin-bottom: 20px;
+}
+.side-box{
+    background: url(images/sidebar-bg.png);
+    margin-bottom: 20px;
+}
+.side-box h3{
+    padding: 10px 0 0 25px;
+    color: #fff;
+}
+.side-box-top{
+    background: url(images/sidebar-top.png)no-repeat left top;
+    border: none;
+}
+.side-box-bottom{
+    background: url(images/sidebar-bottom.png) no-repeat left bottom;
+}
+.side-menu li{
+    height: 47px;
+    border-top: 1px solid #000;
+}
+.side-menu li a,.side-menu p{
+    display: block;
+    border-top: 1px solid #2d2d2d;
+    background: url(images/sidebar-list-bullet.png) no-repeat 90% 50%;
+    padding: 12px 20px 10px 25px;
+    color: #fff;
+}
+.side-menu .active{
+    background: url(images/sidebar-menu-active.png) repeat-x;
+    border-top: none;
+}
+/* 主体 */
+#main{
+    width: 620px;
+    float: left;
+    margin-bottom: 20px;
+}
+
+.main-content img{
+    float:left;
+    margin-right:20px;
+    margin-bottom:70px;
+}
+.main-content h2{
+    color:#8bbf36
+}
+.main-content p{
+    margin-bottom:35px;
+    color: #000;
+    border: none;
+}
+/* 评价内容 */
+#side{
+    width: 299px;
+    float: left;
+    margin-left: 20px;
+    margin-bottom:20px ;
+}
+.side-quote-content{
+    padding: 25px;
+    color:#ffffff
+}
+.side-quote-bottom{
+    height: 28px;
+    background: url(images/sidebar-quote-bottom.png) no-repeat;
+    margin-top: -20px;
+}
+.user img{
+    float: left;
+    margin-right: 15px;
+}
+.user p{
+    font-size: 18px;
+    color: #a4a0a0;
+    font-weight: bold;
+}
+/* 特色部分 */
+#feature{
+    clear: both;
+    background: url(images/page-line.png)repeat-x left top ;
+    padding: 20px 0;
+}
+.box-1,.box-2,.box-3{
+    float: left;
+    width: 300px;
+    margin-bottom: 20px;
+    margin-right: 20px;
+}
+.box-3{
+    margin-right: 0;
+}
+#feature img{
+    float: left;
+    margin-right: 20px;
+    padding: 5px;
+    bottom: 1px solid #989898;
+    background-color: #fff;
+}
+/* 页底部分 */
+#bottom{
+    clear: both;
+    background: url(images/bottom-bg.png)#303030;
+    color: #fff;
+    padding: 30px 0;
+}
+.social{
+    width: 330px;
+    float: left;
+}
+.fac{
+    width: 550px;
+    float: left;
+    margin-left: 50px;
+}
+.fac h3{
+    background: url(images/bottom-line.png)repeat-x left bottom;
+    padding-bottom: 10px;
+}
+.fac li {
+    background: url(images/bottom-list-bullet.png)no-repeat left center;
+    padding-left: 32px;
+    margin-bottom: 5px;
+}
+/* 页脚部分 */
+#footer{
+    clear: both;
+    background: url(images/footer-bg.png)repeat-x #1f1f1f;
+    padding: 30px 0;
+}
+
+/*clearfix*/
+.clearfix:after {
+	clear: both;
+	content: '.';
+	display: block;
+	visibility: hidden;
+	height: 0;
+}
+.clearfix {
+	display: inline-block;
+}
+* html .clearfix {
+	height: 1%;
+}
+.clearfix {
+	display: block;
+}
+
